@@ -27,7 +27,7 @@ urlpatterns = [
     # Post
     path("posts/", posts_views.holapost, name=""),
     # User
-    path("index/", users_views.index, name="index"),
+    path("/", users_views.index, name="index"),
     path("about/", users_views.about, name="about"),
     path("signin/", users_views.signins, name="signin"),
     path("skills/", users_views.skills, name="skills")

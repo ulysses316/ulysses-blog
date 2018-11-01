@@ -26,12 +26,15 @@
 <section class="signin-background">
   <div class="signin">
     <form class="" action="{% url "signin" %}" method="POST">
+      {% if error %}
+      <p style="color:red; text-align:center;"> {{error}} </p>
+      {% endif %}
       <h5 class="iniciar-sesion-logo">Iniciar sesion</h5>
       <!-- CSRF -->
       <form method="post">{% csrf_token %}
         <!-- FORM USER -->
-      <input class="input-signin" type="text"  placeholder="Ingresa correo electronico">
-      <input class="input-signin" type="password"  placeholder="Ingresa contraseña">
+      <input class="input-signin" type="text" name="username" placeholder="Username">
+      <input class="input-signin" type="password" name="password" placeholder="Password">
       <button class="boton" type="submit" name="button">Ingresar</button>
     </form>
   </div>
