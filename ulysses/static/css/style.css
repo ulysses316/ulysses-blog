@@ -1,0 +1,231 @@
+/*gradiant red: #e81644  to   blue: #2086c1*/
+@font-face{
+  font-family: 'Flash Back - Demo';
+  src: url("../fonts/Flash\ Back\ -\ Demo.ttf")
+}
+
+body{
+  background: #f2f2f2;
+}
+h2,h3,h4,h5,h6{
+  font-family: 'Crimson Text', serif;
+}
+p,span,a{
+  font-family: 'Quicksand', sans-serif;
+}
+.parrafo-blanco{
+  color: #f8f9fa;
+}
+h4{
+  text-align: center;
+  font-size: 40px;
+}
+h1{
+  font-size: 200px;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #e81644, #2086c1);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: 'Flash Back - Demo';
+  padding: 50px 0 50px 0;
+  font-weight: 100;
+  text-align: center;
+}
+@media only screen and (max-width: 767px) {
+    h1{
+      font-size: 160px;
+    }
+}
+@media only screen and (max-width: 558px) {
+    h1{
+      font-size: 100px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+  .centrado-logo{
+    padding-top: 150px;
+  }
+}
+nav{
+  border-bottom: 1px outset gray;
+}
+.logo{
+  background: #343a40;
+  height: 115vh;
+}
+
+.img-aprendi{
+  width: 50%;
+}
+
+.acomoda-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a i{
+  font-size: 30px;
+  margin-right: 5px;
+  color: white;
+}
+
+.card-post{
+  margin-top: 30px;
+}
+.card-post div{
+  text-align: center;
+}
+
+/*About*/
+
+.img-ulysses{
+  border-radius: 100%;
+  width: 150px;
+}
+
+.centrar-about{
+  text-align: center;
+  margin-top: 35px;
+}
+
+/*Skills*/
+.cv-background{
+  background: url(../img/area.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+}
+.cv-margin-top{
+    margin-top: 80px;
+}
+@media only screen and (max-width: 767px) {
+  .cv-margin-top{
+      margin-top: 0px;
+  }
+}
+
+.cv-blanco{
+  background: #f2f2f2;
+}
+h6{
+  font-size: 50px;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #e81644, #2086c1);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: 'Flash Back - Demo';
+  padding: 50px 0 50px 0;
+  font-weight: 100;
+  text-align: center;
+}
+.cv-presentacion{
+  border: 1px gray;
+  border-style: double;
+  border-radius: 4px;
+  text-align: center;
+  padding: 40px 15px 40px 15px;
+  margin-bottom: 40px;
+}
+.cv-presentacion div{
+  border:0.52px solid #6c757d;
+}
+.cv-presentacion h2{
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.cv-parrafo{
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.cv-negro{
+  background: #363635;
+  margin: 0 !important;
+}
+.cv-negro div{
+  text-align: center;
+  color: white;
+}
+
+.devf h5 a{
+  color: white;
+}
+
+.devf p a{
+  color: red;
+}
+
+.platzi h5 a{
+  color: white;
+}
+
+.align-start{
+  text-align: left !important;
+  background: #3a3a3a;
+}
+
+.habilidades-icons i{
+    font-size: 30px;
+}
+
+.habilidades-icons i span{
+    font-size: 20px;
+}
+
+.padding-habiidades{
+  padding: 25px 25px 25px 25px;
+}
+
+/*Sign in*/
+
+.signin{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.signin-background{
+  background: url(../img/space.jpg) 50% 50% no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  display: table;
+}
+
+.iniciar-sesion-logo{
+  font-family: "Flash Back - Demo";
+  font-weight: lighter;
+  color: #fff;
+  font-size: 70px;
+  text-align: center;
+}
+
+.input-signin{
+  display: block;
+  width:320px;
+  height:50px;
+  background: rgba(0, 0, 0, 0.3);
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  font-weight: lighter;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+.boton{
+  width: 332px;
+  height: 50px;
+  font-size: 16px;
+  background: #000;
+  font-weight: lighter;
+  color: #fff;
+  border: 0px;
+  border-radius: 5px;
+}

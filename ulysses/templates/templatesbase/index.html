@@ -1,0 +1,84 @@
+<!-- LOGO index -->
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="logo">
+    <div class="container">
+      <div class="row centrado-logo">
+        <div class="col-sm-12 col-lg-12 col-xl-7">
+          {% load static %}
+          <h1 class="">HUGM</h1>
+        </div>
+          <div class="col-sm-12 col-lg-12 col-xl-4">
+            <p class="parrafo-blanco">
+              Estudiante de ingenieria en computacion, apasionado de la tecnologia
+              se poco de muchas cosas, pero hago el intento de juntarlo todo.
+              comparto lo que se en cursos junto con <a href="https://www.facebook.com/GDGUNAM/">GDG UNAM</a>
+              Me encanta el desarrollo web, actualmente lo que mas estudio es JS pero tambien me gusta usar python.
+            </p>
+            <p class="parrafo-blanco">
+              Trato de nunca dejar de aprender, y no quedarme solo con lo que me da la escuela, creo que es mas importante
+              nunca dejar de aprender, sin importar los medios, a creer que la escuela te solucionara la vida.
+            </p>
+            <a href="about.html"><button type="button" class="btn btn-outline-info">Sobre mí</button></a>
+          </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Entradas del blog -->
+  <section>
+    <div class="container">
+      <div class="row card card-post">
+
+        <div class="col-md-12 col-sm-12">
+          <h3 class="card-header card-title">Titulo del post</h3>
+          <div class="card-body">
+            {% load static %}
+            <img class="col-md-3 col-sm-12" src="{% static 'img/ulysses.jpg' %}" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button type="button" class="btn btn-dark">Seguir leyendo</button>
+          </div>
+        </div>
+
+        <div class="col-md-12 col-sm-12">
+          <h3 class="card-header card-title">Titulo del post</h3>
+          <div class="card-body">
+            {% load static %}
+            <img class="col-md-3 col-sm-12" src="{% static 'img/ulysses.jpg' %}" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button type="button" class="btn btn-dark">Seguir leyendo</button>
+          </div>
+        </div>
+
+        <div class="col-md-12 col-sm-12">
+          <h3 class="card-header card-title">Titulo del post</h3>
+          <div class="card-body">
+            {% load static %}
+            <img class="col-md-3 col-sm-12" src="{% static 'img/ulysses.jpg' %}" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button type="button" class="btn btn-dark">Seguir leyendo</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Pagination -->
+  <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+
+{% include "aprendi.html" %}
+
+{% endblock %}

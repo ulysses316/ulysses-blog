@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="centrar-about">
+          {% load static %}
+          <img class="img-ulysses" src="{% static 'img/ulysses.jpg'%}" alt="">
+          <h2>Hector Ulises G.M.</h2>
+          <p>Desarrollador web Jr. Jr.</p>
+        </div>
+        <p>Soy estudiante de la Universidad Nacional Autonoma de México, y formo parte de la comunidad GDG UNAM
+           desde inicios del 2018, me gusta compartir lo que he aprendido en mi tiempo como desarrollador.
+           En la escuela con ayuda de la comunidad tuve la oportunidad de realizar dos cursos, el primero fue:
+           "Consumo de API con JS" y el segundo no hace tanto, "Desarrollo web basico (responsive)"
+        </p>
+        <p>
+          Me converti en autodidacta cuando tuve la oportunidad de incribirme a una escuela de programacion cerca de mi ciudad
+          llamada <a target="_blank" href="https://devf.mx/">Dev-f</a> con la cual aprendi que habia todo un mundo del desarrollo ahi afuera
+          y que si realmente queria dedicarme a esto tenia que ponerme estudiar, y sobre todo a codear.
+          Una vez que termine mi estadia en <a target="_blank" href="https://devf.mx/">Dev-f</a> tuve la oportunidad de seguir estudiando con
+          mi sensei Angelo Luna, me fui de becario a <a target="_blank" href="https://jelpmi.mx/">Jelp mi</a> en donde aprendi frontend basico
+          Depues de dos meses estanto en <a target="_blank" href="https://jelpmi.mx/">Jelp mi</a> era momento de que ingresara a la Universidad
+          ahi fue cuando conoci a <a target="_blank" href="https://www.facebook.com/GDGUNAM/">GDG UNAM</a> una comunidad con la que podia compartir
+          los mismos intereses y el deseo de poder compartir nuestro conocimiento y aprender de otras personas, aqui es donde entra
+          <a href="https://centraal.academy/">Centraal academy</a>
+          que busca lo mismo la enseñanza y el compartir con las personas, <a href="https://centraal.academy/">Centraal academy</a> es una escuela tambien de programacion
+          pero tambien es sede de muchos de los meetups sobre tecnologia en la ciudad de méxico y gracias a ellos es que las comunidades han tenido forma de difundir lo que saben.
+        </p>
+        <p>
+          Ahora me gustaria compartir donde es que estudio para poder mejorar mis habilidades.
+          <ul>
+            <li><a target="_blank" href="https://platzi.com/">Platzi</a></li>
+            <li><a target="_blank" href="http://codigofacilito.com/">Codigo facilito</a></li>
+            <li><a target="_blank" href="https://www.udemy.com/">Udemy</a></li>
+            <li><a target="_blank" href="http://www.faztweb.com/">Fazt</a></li>
+            <li><a target="_blank" href="https://es.stackoverflow.com/">Stack overflow </a><span> (Gracias por existir)</span> </li>
+            <li>Youtube</li>
+            <p>En el caso de youtube hay decenas de canales en los que puedes encontrar tutoriales excelentes para aprender, solo es cuestion de que busques.
+            <li>Documentaciones</li>
+            <p>No todo puede ser a base de tutoriales, aveces tendras que leer las documentaciones para ver mas a fonto una tecnologia</p>
+            <li>Blogs</li>
+            <p>Hay personas que les gusta compartir informacion por medio de blogs como este y son muy buenos, un ejemplo es
+               <a target="_blank "href="https://carlosazaustre.es/sobre-mi/">Carlos Azaustre</a>
+            </p>
+            <p>Obviamente no podian faltar los salvavidas de miles de codigos</p>
+            <li><a href="https://www.github.com">Github</a></li>
+            <li><a href="https://www.gitlab.com">Gitlab</a></li>
+          </ul>
+        </p>
+        <p>
+          Por cierto, en dado caso que se lo pregunten, ¿Por que desarrollador web Jr Jr?
+          bueno, la respuesta es bastante sencilla, todavia me falta un largo camino para ser un Jr.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include "aprendi.html" %}
+
+{% endblock %}
