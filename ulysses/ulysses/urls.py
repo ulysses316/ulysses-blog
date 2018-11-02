@@ -30,5 +30,5 @@ urlpatterns = [
     path("", users_views.index, name="index"),
     path("about/", users_views.about, name="about"),
     path("signin/", users_views.signins, name="signin"),
-    path("skills/", users_views.skills, name="skills")
+    path("skills/", users_views.skills, name="skills"),
 ]
